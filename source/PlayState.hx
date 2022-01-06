@@ -900,9 +900,9 @@ class PlayState extends MusicBeatState
 		iconP1.visible = !ClientPrefs.hideHud;
 		add(iconP1);
 
-		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Modpack Por (DotorBiscoito e CauaGames57"), 24);
+		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Engine by DotorBiscoito e CauãGames57"), 24);
         creditTxt.scrollFactor.set();
-        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         creditTxt.borderColor = FlxColor.BLACK;
         creditTxt.borderSize = 3;
         creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
