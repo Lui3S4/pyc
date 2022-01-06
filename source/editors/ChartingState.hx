@@ -90,8 +90,8 @@ class ChartingState extends MusicBeatState
 		['imageflash', "Value 1: Name of the image\nValue 2: Duration (in seconds)"],
 		['LinearAlpha', "Value 1: How long to tween for (in seconds)\nValue 2: Target Transparency"],
 		['LinearAlphaBF', "Value 1: How long to tween for (in seconds)\nValue 2: Target Transparency"],
-		[LinearAlphaOPT', "How long to tween for (in seconds)\nValue 2: Target Transparency"],
-		['Opponent Fade', "Value 1: Duration (0 = Instant)\nValue 2: Target transparency value"]
+		['LinearAlphaOPT', "How long to tween for (in seconds)\nValue 2: Target Transparency"],
+		['Opponent Fade', "Value 1: Duration (0 = Instant)\nValue 2: Target transparency value"],
 	];
 
 	var _file:FileReference;
