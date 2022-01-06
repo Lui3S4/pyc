@@ -898,17 +898,9 @@ class PlayState extends MusicBeatState
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
 		iconP1.y = healthBar.y - (iconP1.height / 2);
 		iconP1.visible = !ClientPrefs.hideHud;
-		add(iconP1);
-		
-		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 329,132,("Engine by (DotorBiscoito the CauaGames57) "), 24); 
-creditTxt.scrollFactor.set(); 
-creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK); 
-creditTxt.borderColor = FlxColor.WHITE; 
-creditTxt.borderSize = 3; 
-creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE; 
-add(DotorBiscoito);
+		add(iconP1);
 
-		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Modpack Por (DotorBiscoito e Kaua"), 24);
+		var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Modpack Por (DotorBiscoito e CauaGames57"), 24);
         creditTxt.scrollFactor.set();
         creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         creditTxt.borderColor = FlxColor.BLACK;
